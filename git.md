@@ -1,9 +1,19 @@
 # Git
 
+To avoid tracking files that should be ignored and committing files that should not be a part of git history
+never use `git add .`, or `git add -A`,  or `git add --all`. All files should be explicitly added to the index
+execpt the initial commit when generating templates.
+
 Be careful before you commit in git. Never use `git add .`
 - `git add -p`
 - `git diff --cached` show the changes staged for next commit relative to the `HEAD`
 - `git show -w` ignore whitespace when comparing lines
+
+There are several advantages to using `git add -p`:
+- one more chance for you to review exactly what you are going to commit
+- know exactly what's in your commit so you can write better commit messages
+- reveals whitespace errors so they can be removed before committing
+- pick and choose the changes you want to commit to make commits more granular
 
 To get all remote branches:
 
