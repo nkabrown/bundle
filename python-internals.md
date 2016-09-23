@@ -1,5 +1,7 @@
 # Python Internals
 
+[Execution Model](https://github.com/python/cpython/blob/master/Doc/reference/executionmodel.rst)
+
 ## Accessing
 
 View the Python Abstract Syntax Tree:
