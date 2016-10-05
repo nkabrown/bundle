@@ -11,3 +11,5 @@ To create dynamic urls in scripts add a script tag to create a global variable w
     $SCRIPT_ROOT = {{ request.script_root|tojson|safe }};
   </script>
 ```
+
+http://flask.pocoo.org/docs/0.11/patterns/jquery/
