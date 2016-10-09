@@ -1,5 +1,10 @@
 # Git
 
+Create a new repository with an empty root commit because the first commit of an repository can not be rebased
+like a regular commit.
+
+`git init && git commit -m "root" --allow-empty`
+
 To avoid tracking files that should be ignored and committing files that should not be a part of git history
 never use `git add .`, or `git add -A`,  or `git add --all`. All files should be explicitly added to the index
 execpt the initial commit when generating templates.
