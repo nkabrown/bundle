@@ -17,7 +17,7 @@ My current thoughts on making a project modular:
       |                             |
    -------                       -------
   |       |                     |       |                  DEPENDENCIES
-  |       |                     |   d   |                  submodules used to construct module units
+  |       |                     |   d   |                  module subtrees imported into initialization modules to construct submodule units
    -------                       -------                   
 ```
 
