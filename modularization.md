@@ -11,7 +11,7 @@ My current thoughts on making a project modular:
        ______________ | ____________________________
       |               |             |               |
    -------         -------       -------         -------
-  |       |       |       |     |       |       |       |  INITIALIZATION MODULE 
+  |       |       |       |     |       |       |       |  INITIALIZATION MODULES
   |       |       |   d   |     |   d   |       |       |  work assignment unit that imports all modules needed to construct the module unit
    -------         -------       -------         -------   acts as an entry point for each submodule and testing here can aid conditional execution
       |                             |
