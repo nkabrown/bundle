@@ -28,3 +28,15 @@ To get all remote branches:
 - `git checkout -b develop origin/develop` create a local branch that tracks a branch in the remote repository
 
 Result: `Branch develop set up to track remote branch develop from origin`
+
+**revert to previous project state**
+It sometimes happens that you need to go back to a time when your application was working. Here is a routine
+to restore a project to a previous state.
+
+- `git log --oneline`
+
+   commit history displayed as list of short SHA-1 and commit subject
+
+- `git checkout <short SHA-1>`
+
+   Checkout the files as they were when that commit was made
