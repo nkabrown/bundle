@@ -8,6 +8,8 @@
 
 [Reduce](#reduce)
 
+[Division](#division)
+
 # If Statements
 
 ```
@@ -114,4 +116,37 @@ a.reduce((prev, cur) => {
   return prev;
 }, [])
 //=> [15]
+```
+
+# Division
+
+JavaScript does not do integer division. The multiplicative `/` operator applied to two operands always returns a double precision floating point number. This rule from C will not hold true: `If the quotient a/b is representable, the expression
+(a/b)*b + a%b shall equal a;`
+
+```c
+#include <stdlib.h>
+#include <stdio.h>
+#include <stdbool.h>
+
+int main(void) {
+  size_t a = 13;
+  size_t b = 5;
+
+  bool x = (a == (a / b) * b + (a % b));
+
+  printf("The result is %s\n", x ? "true" : "false");
+
+  return EXIT_SUCCESS;
+}
+```
+
+In JavaScript `a === (a / b) * b + (a % b)` will return `true only when the result has no fractional part as a remainder. You can replicate integer division only by forcing the quotient to throw away the fractional part.
+
+```javascript
+var a = 13;
+var b = 5;
+
+var x = a === (Math.floor(a / b)) * b + (a % b);
+
+console.log('The result is %s', x);
 ```
