@@ -6,3 +6,7 @@ You can underline in Markdown by using the `<ins>` tag.
 
 - [Anchor Links in Markdown](https://gist.github.com/asabaylus/3071099)
 - [Detail expansion](https://gist.github.com/ericclemmons/b146fe5da72ca1f706b2ef72a20ac39d)
+
+convert markdown to latex using [pandoc](http://pandoc.org/)
+
+http://www.bytebang.at/Blog/Better+notes+with+pandoc#
