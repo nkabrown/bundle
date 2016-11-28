@@ -10,3 +10,11 @@ You can underline in Markdown by using the `<ins>` tag.
 convert markdown to latex using [pandoc](http://pandoc.org/)
 
 http://www.bytebang.at/Blog/Better+notes+with+pandoc#
+
+`pandoc -f markdown logs.md -t latex -o logs.pdf`
+
+`-f` - input format
+
+`t` - output format
+
+`-o` - output to file instead of `stdout`
