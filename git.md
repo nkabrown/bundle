@@ -40,3 +40,7 @@ to restore a project to a previous state.
 - `git checkout <short SHA-1>`
 
    Checkout the files as they were when that commit was made
+
+**review today's work**
+
+`git log --since="6am" --author="Nathan"`
