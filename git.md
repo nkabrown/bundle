@@ -44,3 +44,7 @@ to restore a project to a previous state.
 **review today's work**
 
 `git log --since="6am" --author="Nathan"`
+
+**Centralized workflow**
+
+When pulling from a central repository rebase your branch on top of the branch fetched from upstream. `--rebase` will move your "commits to the tip of the branch after synchronising it with the changes from the central repository". This will save you from unneeded 'merge conflict' commits. `git pull --rebase origin master` https://www.atlassian.com/git/tutorials/comparing-workflows/centralized-workflow
