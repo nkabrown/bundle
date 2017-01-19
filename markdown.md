@@ -18,3 +18,5 @@ http://www.bytebang.at/Blog/Better+notes+with+pandoc#
 `t` - output format
 
 `-o` - output to file instead of `stdout`
+
+a more complicated example: `pandoc -V geometry:margin=0.5in --listings -f markdown d3-diagnostic.md -t latex -o d3-diagnostic.pdf`
