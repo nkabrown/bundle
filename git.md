@@ -48,3 +48,5 @@ to restore a project to a previous state.
 **Centralized workflow**
 
 When pulling from a central repository rebase your branch on top of the branch fetched from upstream. `--rebase` will move your "commits to the tip of the branch after synchronising it with the changes from the central repository". This will save you from unneeded 'merge conflict' commits. `git pull --rebase origin master` https://www.atlassian.com/git/tutorials/comparing-workflows/centralized-workflow
+
+`.git` file extension is appended to repository names when the repo is a bare repository (does not have a working directory, commits should be pushed to a bare repo but not commited in the repo).

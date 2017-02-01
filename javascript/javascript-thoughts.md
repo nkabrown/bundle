@@ -154,7 +154,8 @@ console.log('The result is %s', x);
 
 # Arrays
 
-Reverse iteration of an array to the first element
+Iterate through an array from the last element to the first
+
 ```javascript
 for (let i = array.length; i-- > 0;) {
   console.log(i);
