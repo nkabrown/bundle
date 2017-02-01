@@ -10,6 +10,8 @@
 
 [Division](#division)
 
+[Arrays](#arrays)
+
 # If Statements
 
 ```
@@ -149,3 +151,12 @@ var x = a === (Math.floor(a / b)) * b + (a % b);
 
 console.log('The result is %s', x);
 ```
+
+# Arrays
+
+Reverse iteration of an array to the first element
+```javascript
+for (let i = array.length; i-- > 0;) {
+  console.log(i);
+}
+``
