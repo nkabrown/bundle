@@ -12,6 +12,11 @@ display first lines of a file
 
 `head -n 5` — without `-n` option default is 10 lines
 
+inspect the pattern behind bash's primary prompt variable run `echo $PS1`.
+
+`\h:\W \u\$` `\h` = hostname `\W` = basename of current directory `\u` = username
+
+
 ## tmux
 
 List sessions under the management of tmux
