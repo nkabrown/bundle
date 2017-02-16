@@ -160,4 +160,4 @@ Iterate through an array from the last element to the first
 for (let i = array.length; i-- > 0;) {
   console.log(i);
 }
-``
+```
