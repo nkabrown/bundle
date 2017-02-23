@@ -9,3 +9,5 @@ To search for a known file name in directory of folders use a wildcard `:e **/fi
 Convert Windows/DOS carriage return characters into newlines `:%s/^M/\r/g` — **this is great for formating csv files that were saved from Excel sheets**
 
 Use alternative delimiter characters to make substitutions on dates using slashes `:%s#3/2/17#03/02/2017#g`
+
+Toggle vim's boolean options with `!`: `:set list!` and reset an option to the default value with `&`: `:set list&`
