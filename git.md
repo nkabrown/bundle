@@ -52,3 +52,5 @@ When pulling from a central repository rebase your branch on top of the branch f
 `.git` file extension is appended to repository names when the repo is a bare repository (does not have a working directory, commits should be pushed to a bare repo but not commited in the repo).
 
 Search for a specific word in git commit messages `git log --all --grep="Carnegie"`.
+
+Don't forget to run `git help -g` to see a list of interesting guides including some tutorials.
