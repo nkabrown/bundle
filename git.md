@@ -56,3 +56,5 @@ Search for a specific word in git commit messages `git log --all --grep="Carnegi
 Don't forget to run `git help -g` to see a list of interesting guides including some tutorials.
 
 Use the `--word-diff` option to highlight changes in a bundle with `git diff` or `git show`.
+
+You can use a redirection operator to write the results of a git command to a file. `git log --author="Nathan" > commits.txt`
