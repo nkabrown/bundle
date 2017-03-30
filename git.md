@@ -54,3 +54,5 @@ When pulling from a central repository rebase your branch on top of the branch f
 Search for a specific word in git commit messages `git log --all --grep="Carnegie"`.
 
 Don't forget to run `git help -g` to see a list of interesting guides including some tutorials.
+
+Use the `--word-diff` option to highlight changes in a bundle with `git diff` or `git show`.
