@@ -16,6 +16,9 @@ inspect the pattern behind bash's primary prompt variable run `echo $PS1`.
 
 `\h:\W \u\$` `\h` = hostname `\W` = basename of current directory `\u` = username
 
+create multiple directories with bash brace expansion
+
+`mkdir src/{js,css,img,fonts}`
 
 ## tmux
 
