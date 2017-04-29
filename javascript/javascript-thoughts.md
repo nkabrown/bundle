@@ -161,3 +161,7 @@ for (let i = array.length; i-- > 0;) {
   console.log(i);
 }
 ```
+
+# + Operator
+
+Why is the `+` operator both the addition operation and string concatenation? It's because the definition of a natural number is a string of ones. The sum of numbers `n` and `m` is the combination of the strings of ones. 1111 + 111 = 1111111 Addition is the concatenation of two strings of ones.
