@@ -33,3 +33,7 @@ Attach to a session
 Detach from a session
 
 `Ctrl-b d`
+
+Enter scroll mode
+
+`Ctrl-b [` and use arrow keys to navigate. Press `q` to exit scroll mode.
