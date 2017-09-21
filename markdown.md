@@ -20,3 +20,5 @@ http://www.bytebang.at/Blog/Better+notes+with+pandoc#
 `-o` - output to file instead of `stdout`
 
 a more complex example: `pandoc -V geometry:margin=0.5in --latex-engine=xelatex --listings --template=ty -f markdown d3-diagnostic.md -t latex -o d3-diagnostic.pdf`
+
+If you need a hard line break in your markdown that is being transformed into latex put two or more spaces at the end of a line.
