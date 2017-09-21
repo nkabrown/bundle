@@ -21,4 +21,16 @@ http://www.bytebang.at/Blog/Better+notes+with+pandoc#
 
 a more complex example: `pandoc -V geometry:margin=0.5in --latex-engine=xelatex --listings --template=ty -f markdown d3-diagnostic.md -t latex -o d3-diagnostic.pdf`
 
+example font headers for markdown to latex transformation:
+
+```
+---
+mainfont: Museo Sans 300
+mainfontoptions:
+- BoldFont=Museo Sans 900
+- ItalicFont=Museo Sans 300 Italic
+- BoldItalicFont=Museo Sans 900 Italic
+...
+```
+
 If you need a hard line break in your markdown that is being transformed into latex put two or more spaces at the end of a line.
