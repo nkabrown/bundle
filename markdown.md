@@ -34,3 +34,16 @@ mainfontoptions:
 ```
 
 If you need a hard line break in your markdown that is being transformed into latex put two or more spaces at the end of a line.
+
+Workaround for [markdown in latex blocks](https://groups.google.com/forum/#!msg/pandoc-discuss/ggcrRN-ja-s/nFyiQ3cXCAAJ). An amazing facilitator to converting documentation to pdf with pandoc.
+
+```
+---
+header-includes:
+    - \newcommand{\hideFromPandoc}[1]{#1}
+    - \hideFromPandoc{
+        \let\Begin\begin
+        \let\End\end
+      }
+...
+```
