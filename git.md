@@ -51,10 +51,16 @@ When pulling from a central repository rebase your branch on top of the branch f
 
 `.git` file extension is appended to repository names when the repo is a bare repository (does not have a working directory, commits should be pushed to a bare repo but not commited in the repo).
 
-Search for a specific word in git commit messages `git log --all --grep="Carnegie"`.
-
 Don't forget to run `git help -g` to see a list of interesting guides including some tutorials.
+
+You can use a redirection operator to write the results of a git command to a file. `git log --author="Nathan" > commits.txt`
+
+**Find what your looking for**
 
 Use the `--word-diff` option to highlight changes in a bundle with `git diff` or `git show`.
 
-You can use a redirection operator to write the results of a git command to a file. `git log --author="Nathan" > commits.txt`
+Search for a specific word in git commit messages `git log --all --grep="Carnegie"`.
+
+Get a list of changed files `git diff --name-only HEAD HEAD~2 > changedfiles.txt`
+
+See the changes to a directory over the course of a week `git diff HEAD 'HEAD@{1 week ago}' -- foldername/`. See `git help rev-parse` for information on how `'HEAD@{1 week ago}'` works.
