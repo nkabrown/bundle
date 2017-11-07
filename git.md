@@ -26,9 +26,12 @@ To get all remote branches:
 - `git remote` list existing remotes
 - `git fetch <remote>` get all branches and objects held in the remote repository
 - `git checkout -b develop origin/develop` create a local branch that tracks a branch in the remote repository
+
+   Result: `Branch develop set up to track remote branch develop from origin`
+
 - `git checkout --track upstream/issue11` create a local branch that tracks a branch in an upstream repository. Add a `-b <name>` flag to give your own name.
 
-Result: `Branch develop set up to track remote branch develop from origin`
+   Result: `Branch 'issue11' set up to track remote branch 'issue11' from 'upstream'`
 
 **revert to previous project state**
 It sometimes happens that you need to go back to a time when your application was working. Here is a routine
