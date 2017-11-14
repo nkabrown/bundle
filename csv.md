@@ -10,3 +10,7 @@ start_age,end_age,gender,income
 30,60,Female,"HHI USD:60,000 - 74,999"
 
 ```
+
+## csv to json
+
+Use the [jq](https://stedolan.github.io/jq/) utility
