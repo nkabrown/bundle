@@ -1,6 +1,6 @@
 # JS Switch Statement
 
-A functional replacement for a JavaScript switch statement.
+Replace a JavaScript switch statement with curried function composition.
 
 Original example from https://gist.github.com/Elli-P/cccaacfae68515c0cdab0e62aaa60538
 
