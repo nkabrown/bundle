@@ -23,3 +23,11 @@ The components of a URI are scheme, authority, path, query, and fragment
 The authority component is preceded by a double slash `//`.
 
 Queries are generally key value pairs and `&` is a query delimiter.
+
+**about URI**
+
+`about:blank` references a blank page.
+
+[RFC 6694](https://tools.ietf.org/html/rfc6694)
+
+`about` is translated into `chrome` in the Chrome browser. `chrome://chrome-urls` or `chrome://about` lists the available about uris exposing browswer internals.
