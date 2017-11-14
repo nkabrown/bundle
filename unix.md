@@ -20,9 +20,9 @@ create multiple directories with bash brace expansion
 
 `mkdir src/{js,css,img,fonts}`
 
-search for TODO's in a codebase excluding files and directories
+search for TODO's in a codebase excluding files and directories and redirect to file
 
-`grep 'TODO' -r --exclude-dir={node_modules,.git} --exclude={"*.bundle.js","*.csv","*.map","*.min.js","*bundle.js"} .`
+`grep 'TODO' -r --exclude-dir={node_modules,.git} --exclude={"*.csv","*.map","*.min.js","*bundle.js",todos.txt} . > todos.txt`
 
 ## tmux
 
