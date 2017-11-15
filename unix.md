@@ -16,7 +16,7 @@ inspect the pattern behind bash's primary prompt variable run `echo $PS1`.
 
 `\h:\W \u\$` `\h` = hostname `\W` = basename of current directory `\u` = username
 
-create multiple directories with bash brace expansion
+create multiple directories with bash brace expansion (do not put whitespace within the comma-separated list)
 
 `mkdir src/{js,css,img,fonts}`
 

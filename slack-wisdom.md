@@ -126,3 +126,42 @@ const salary = switchcase({
 
 console.log(`In 2015, a person with ${education} earned an average of ${salary}/year.`);
 ```
+
+There are a lot of advantages to replacing the switch statement with currying functions. For example it's very reusable. We can apply any object with strings for values as the first argument.
+
+```
+const ageGroup = {
+  "20-35": "$32,687",
+  "36-45": "$51,433",
+  "46-55": "$58,701",
+  "56-70": "$55,378"
+};
+
+const educationLevel = {
+  "no high school diploma": "$25,636",
+  "a high school diploma": "$35,256",
+  "an Associate's degree": "$41,496",
+  "a Bachelor's degree": "$59,124",
+  "a Master's degree": "$69,732",
+  "a Professional degree": "$89,960",
+  "a Doctoral degree": "$84,396"
+};
+
+const salaryByEducation = switchcase(educationLevel);
+const salaryByAge = switchcase(ageGroup);
+```
+
+This is an example of partial application. We can pass these values around into other functions and then apply the key whenever we'd like to get a value back. But that is just the start, even better if we have just these two cases we can do a little rewriting and do this:
+
+```
+const switchcase = cases => optionalCases => key => key in cases ? cases[key] : switchcase(optionalCases)(cases)(key);
+
+const bothCases = switchcase(educationLevel)(ageGroup)
+
+bothCases("20-35") // => "$32,687"
+bothCases("a Master's degree") // => "$69,732"
+```
+
+Awesome right!
+
+—
