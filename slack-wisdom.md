@@ -1,5 +1,9 @@
 **Keep track of helpful learnings shared in Slack channels**
 
+Be a better Slack citizen. Never just provide a link. If you give a link also give a digest or a learning. A takeaway to the person who reads your Slack message that they can have regardless of whether they follow the link or not. This also makes you a responsible linker. Let's not just link for the sake of linking. Let's move away from linking and toward communicating.
+
+—
+
 In the shell you can use brace expansion to create multiple directories all in the same command. For every project you might need a src directory with js, css, and assets directories. You can create them all at once `mkdir -p src/{js,css,assets}`. Just make sure not to leave whitespace between the comma seperated names within the braces.
 
 — 
