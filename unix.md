@@ -16,13 +16,19 @@ inspect the pattern behind bash's primary prompt variable run `echo $PS1`.
 
 `\h:\W \u\$` `\h` = hostname `\W` = basename of current directory `\u` = username
 
-create multiple directories with bash brace expansion (do not put whitespace within the comma-separated list)
+create multiple directories with bash brace expansion (do not put whitespace between the comma-separated items)
 
 `mkdir src/{js,css,img,fonts}`
 
+**grep tasks**
+
 search for TODO's in a codebase excluding files and directories and redirect to file
 
-`grep 'TODO' -r -n --exclude-dir={node_modules,.git} --exclude={"*.csv","*.map","*.min.js","*bundle.js",todos.txt} . > todos.txt`
+`grep 'TODO' -r -n --exclude-dir={node_modules,.git,lib} --exclude={"*.csv","*.map","*.min.js","*bundle.js",todos.txt} . > todos.txt`
+
+search for commented out code and redirect to file
+
+`grep -E "/\*|//\s" -r -n --exclude-dir={node_modules,.git,lib} --exclude={"*bundle.js","*.map","*.min.js","*.csv","*.json",comments.txt} . > comments.txt`
 
 ## tmux
 
