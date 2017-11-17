@@ -1,6 +1,6 @@
 **Keep track of helpful learnings shared in Slack channels**
 
-Be a better Slack citizen. Never just provide a link. If you give a link also give a digest or a learning. A takeaway to the person who reads your Slack message that they can have regardless of whether they follow the link or not. This also makes you a responsible linker. Let's not just link for the sake of linking. Let's move away from linking and toward communicating.
+Be a better Slack citizen and never just provide a link. If you give a link, also give a digest or a learning. Give the person who reads your Slack message a takeaway they can have regardless of whether they follow the link. Be a responsible linker, and let's not just link for the sake of linking. Move away from linking and toward communicating.
 
 —
 
