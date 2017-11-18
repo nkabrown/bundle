@@ -45,6 +45,22 @@ to restore a project to a previous state.
 
    Checkout the files as they were when that commit was made
 
+**git commit messages**
+
+Writing informative and interesting git commit messages is a good habit and is beneficial beacuse they provide you one more opportunity to think about your work and they are searchable and give future codebase workers a path to follow.
+
+Excellent discussion of the traditional git commit message best practice. http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
+
+An alternative git commit message format from Bram Moolenaar:
+
+*patch 8.0.1309: cannot use 'balloonexpr' in a terminal*
+
+Problem:    Cannot use 'balloonexpr' in a terminal.
+
+Solution:   Add 'balloonevalterm' and add code to handle mouse movements in a
+
+            terminal. Initial implementation for Unix with GUI.
+
 **review today's work**
 
 `git log --since="6am" --author="Nathan"`
