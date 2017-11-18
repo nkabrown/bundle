@@ -53,13 +53,11 @@ Excellent discussion of the traditional git commit message best practice. http:/
 
 An alternative git commit message format from Bram Moolenaar:
 
-*patch 8.0.1309: cannot use 'balloonexpr' in a terminal*
+**patch 8.0.1309: cannot use 'balloonexpr' in a terminal**
 
 Problem:    Cannot use 'balloonexpr' in a terminal.
 
-Solution:   Add 'balloonevalterm' and add code to handle mouse movements in a
-
-            terminal. Initial implementation for Unix with GUI.
+Solution:   Add 'balloonevalterm' and add code to handle mouse movements in a terminal. Initial implementation for Unix with GUI.
 
 **review today's work**
 
