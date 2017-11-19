@@ -11,7 +11,7 @@ collect gists and thoughts in one place and wrap them up in a way that’s easie
 [unix](unix.md)
 
 [vim](vim.md)
-.
+
 [markdown](markdown.md)
 
 [category theory](maths/category-theory.md)
