@@ -8,6 +8,12 @@ In the shell you can use brace expansion to create multiple directories all in t
 
 — 
 
+**Reconsider this example**
+
+This example is already composable because the type is constant and the type's prototype methods can be chained. Perhaps an example with type conversion would be better.
+
+`(document.getElementById('name-input').value).replace(/\s+/g, ' ').trim().toUppercase();`
+
 Lot's of assignment to state is a bad code quality signal and we'd like to refactor that assignment to state away. Let's say we have a form where  users input their first and last name. We might write code to clean up and format the form input for our database like this 'FIRST LAST':
 
 ```
@@ -42,11 +48,9 @@ I've been thinking about ES6 and what has been most valuable to me at my work:
 
 1. import/export
 2. arrow functions
-3. classes
-4. sets
-5. maps
-
-The first three are prevalent in react and you might be very familiar. If you don't know the last two they can be very helpful.
+3. template literals
+4. classes
+5. sets/maps
 
 —
 
