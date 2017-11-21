@@ -173,3 +173,11 @@ bothCases("a Master's degree") // => "$69,732"
 Awesome right!
 
 —
+
+What is the difference between these two arrow functions `() => {}` and `() => ({})`?
+
+Try them out in the JavaScript console or node REPL. Rewriting them as function expressions may help or thinking about the two types of bodies that arrow functions take after their arrow `=>`.
+
+Answer: The difference between the arrow functions `() => {}` and `() => ({})` is that the first evaluates a block with no statements inside (this and any block with no `return` statement or a `return` statement given no value, i.e. `() => { return; }`, will return `undefined`) and the second evaluates an expression that returns an empty object. Remember if you give an arrow function brackets it will evaluate them as code block delimiters unless you wrap them in parentheses. See more examples and explanation here: https://gist.github.com/nkabrown/cef868da12f2c0d0822bbfcc51fd01ed
+
+—
