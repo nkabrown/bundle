@@ -17,7 +17,7 @@
 	Response: hello!hello!
 
 */
-
+'use strict';
 const express = require('express');
 const app = express();
 const port = 8000;
@@ -28,24 +28,25 @@ const commands = {
   reverse: (str) => str.split('').reverse().join('')
 };
 
-const getCommand = (word, key) => key in commands ? commands[key](word) : null;
+const getCommand = commands => word => key => key in commands ? commands[key](word) : null;
+
+// partially apply one function and bind to name
+const commandDispatch = getCommand(commands);
 
 // route handlers to test for well-formed commands
-const check1 = (req, res, next) => {
-  req.params.cmd1 in commands ? req.params.cmd1 : res.sendStatus(404);
+const check = (req, res, next) => {
+  req.params.cmd1 in commands ? (req.params.cmd2 in commands ? 'ok': res.sendStatus(404)) : res.sendStatus(404);
   next();
 }
 
-const check2 = (req, res, next) => {
-  req.params.cmd2 in commands ? req.params.cmd2 : res.sendStatus(404);
-  next();
-}
 
-app.get('/:word/:cmd1/:cmd2', [check1, check2], (req, res, next) => {
-  res.send(getCommand(getCommand(req.params.word, req.params.cmd1), req.params.cmd2));
+app.get('/:word/:cmd1/:cmd2', [check], (req, res, next) => {
+  // test if headers have already been sent, if not then send response
+  res.headersSent ? null : res.send(commandDispatch(commandDispatch(req.params.word)(req.params.cmd1))( req.params.cmd2));
 });
 
-// app.listen returns a node http.Server, see 'express/lib/application.js', so we can call server.close() to stop the server from receiving new connections
+// app.listen returns a node http.Server, see 'express/lib/application.js', so we can call server.close() to stop the
+// server from receiving new connections
 const server = app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
 });
