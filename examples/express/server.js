@@ -35,7 +35,7 @@ const commandDispatch = getCommand(commands);
 
 // route handlers to test for well-formed commands
 const check = (req, res, next) => {
-  req.params.cmd1 in commands ? (req.params.cmd2 in commands ? 'ok': res.sendStatus(404)) : res.sendStatus(404);
+  req.params.cmd1 in commands ? (req.params.cmd2 in commands ? 'ok': res.status(404).send(`Invalid Command '${req.params.cmd2}'`)) : res.status(404).send(`Invalid Command '${req.params.cmd1}'`);
   next();
 }
 

@@ -35,8 +35,8 @@ test('GET /hello/repat/repeat', t => {
      .end((err, res) => {
        if (err) throw err;
        t.plan(1);
-       const expectedResponse = 'Not Found';
-       t.equal(res.text, expectedResponse, 'handle spelling error');
+       const expectedResponse = `Invalid Command 'repat'`;
+       t.equal(res.text, expectedResponse, 'handle spelling errors');
        t.end();
      });
 });
@@ -48,8 +48,8 @@ test('GET /hello/repeat/uppercase', t => {
       .end((err, res) => {
         if (err) throw err;
         t.plan(1);
-        const expectedResponse = 'Not Found';
-        t.equal(res.text, expectedResponse, 'handle other commands');
+        const expectedResponse = `Invalid Command 'uppercase'`;
+        t.equal(res.text, expectedResponse, 'handle missing commands');
         t.end();
       });
 });
