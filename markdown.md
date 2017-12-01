@@ -1,4 +1,4 @@
- Markdown
+ # Markdown
 
 You can underline in Markdown by using the `<ins>` tag.
 
@@ -7,11 +7,11 @@ You can underline in Markdown by using the `<ins>` tag.
 - [Anchor Links in Markdown](https://gist.github.com/asabaylus/3071099)
 - [Detail expansion](https://gist.github.com/ericclemmons/b146fe5da72ca1f706b2ef72a20ac39d)
 
-convert markdown to latex using [pandoc](http://pandoc.org/)
+Convert markdown to latex using [pandoc](http://pandoc.org/)
 
-http://www.bytebang.at/Blog/Better+notes+with+pandoc#
+[Better Notes with Pandoc](http://www.bytebang.at/Blog/Better+notes+with+pandoc#)
 
-`pandoc -f markdown logs.md -t latex -o logs.pdf`
+simple example: `pandoc -f markdown logs.md -t latex -o logs.pdf`
 
 `-f` - input format
 
@@ -19,9 +19,11 @@ http://www.bytebang.at/Blog/Better+notes+with+pandoc#
 
 `-o` - output to file instead of `stdout`
 
-a more complex example: `pandoc -V geometry:margin=0.5in --latex-engine=xelatex --listings --template=ty -f markdown d3-diagnostic.md -t latex -o d3-diagnostic.pdf`
+a more complex example: `pandoc -V geometry:margin=0.5in --pdf-engine=xelatex --listings --template=ty -f markdown d3-diagnostic.md -t latex -o d3-diagnostic.pdf`
 
-example font headers for markdown to latex transformation:
+**Custom fonts in latex pdf**
+
+font headers for markdown to latex transformation:
 
 ```
 ---
