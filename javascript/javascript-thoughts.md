@@ -78,8 +78,12 @@ https://github.com/DeveloperToolsWG/console-object/blob/master/api.md#consolelog
 ```javascript
 var array = [1, 3, 5, 6, 2];
 
-console.log('We have this many elements in %s and the elements are %o', array, array);
-//=> We have this many elements in Array[5] and the elements are [1, 3, 5, 6, 2]
+console.log('This is my data %o and it has %d elements.', array, array.length);
+//=> This is my data ▶ Array[5] and it has 5 elements.
+
+// template literals will print the array elements to the console
+console.log(`This is my data ${array} and it has ${array.length} elements.`);
+//=> This is my data 1,3,5,6,2 and it has 5 elements.
 ```
 
 # Reduce
