@@ -50,6 +50,7 @@ test('GET /hello/repeat/uppercase', t => {
         t.plan(1);
         const expectedResponse = `Invalid Command 'uppercase'`;
         t.equal(res.text, expectedResponse, 'handle missing commands');
+        t.comment('end of route parameters tests');
         t.end();
       });
 });
