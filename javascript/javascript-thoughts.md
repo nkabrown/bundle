@@ -64,7 +64,7 @@ JavaScript has a remainder operator, not a modulo operator.
   
 # String Formatting Specifiers in console.log
 
-https://github.com/DeveloperToolsWG/console-object/blob/master/api.md#consolelogobject--object-
+https://console.spec.whatwg.org/#formatter
 
 | Specifier         | Description                                                                        |
 |:----------------- |:-----------------------------------------------------------------------------------| 
