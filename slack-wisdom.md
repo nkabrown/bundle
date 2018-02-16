@@ -185,3 +185,11 @@ Answer: The difference between the arrow functions `() => {}` and `() => ({})` i
 Sometimes we run a command and we get a lot of output on the terminal screen. What are you going to do if you need that output, copy & paste? There's a better way. You can use bash's output redirection operator `>`. If you tack this onto the end of the command and name a file it will redirect the command's output and write it to the file you named. For example `git log --author="Nathan" > commits.txt` will write all the commits I authored to the `commits.txt` file.
 
 —
+
+Unpaid internships are tough. Personally I think every intern should get paid something, but that doesn't mean you shouldn't do an unpaid internship. Here are three things to keep in mind.
+
+1. **Doing something is better than doing nothing.** It's very likely that doing an unpaid internship for a certain amount of time is better than sitting at home for that same period. You do real work, you meet new people and hopefully learn from them, you get a professional reference.
+
+2. **Your loyalty should be paid for.** If they aren't paying you then you shouldn't feel any sense of loyalty and you should continue the job search process while you are there. If you find another job, paid internship, better unpaid internship, etc. then leave right away. If you have an interview during internship hours than go to it. If they want to keep you in your seat and reserve your time for their work they should be paying you.
+
+3. **Somethings are better than money.** If an unpaid internship provides you with a real substanital mentorship that exponentially grows your skill level than that is probably worth giving up money. If you are working on a team working on a project with real professional value than that could be worth giving up money. Real professional value probably doesn't mean doing PHP and Wordpress sites. Not that there is anthing wrong with those, you just probably don't want to be giving away your hard won skills on those for free.
