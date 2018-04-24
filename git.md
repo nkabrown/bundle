@@ -82,3 +82,9 @@ Search for a specific word in git commit messages `git log --all --grep="Carnegi
 Get a list of changed files `git diff --name-only HEAD HEAD~2 > changedfiles.txt`
 
 See the changes to a directory over the course of a week `git diff HEAD 'HEAD@{1 week ago}' -- foldername/`. See `git help rev-parse` for information on how `'HEAD@{1 week ago}'` works.
+
+**exclude files from git command output**
+
+Separate your exclusion operators from your command parameters with the double dash `--` and use the git's exclude pathspec alias `^`.
+
+`git diff -- ':^*.csv'`
