@@ -193,3 +193,31 @@ Unpaid internships are tough. Personally I think every intern should get paid so
 2. **Your loyalty should be paid for.** If they aren't paying you then you shouldn't feel any sense of loyalty and you should continue the job search process while you are there. If you find another job, paid internship, better unpaid internship, etc. then leave right away. If you have an interview during internship hours than go to it. If they want to keep you in your seat and reserve your time for their work they should be paying you.
 
 3. **Somethings are better than money.** If an unpaid internship provides you with a real substanital mentorship that exponentially grows your skill level than that is probably worth giving up money. If you are working on a team working on a project with real professional value than that could be worth giving up money. Real professional value probably doesn't mean doing PHP and Wordpress sites. Not that there is anthing wrong with those, you just probably don't want to be giving away your hard won skills on those for free.
+
+—
+
+Learning is central to your career. These are the 4 best things I've learned about learning so far.
+
+1. Know how to measure learning success.
+
+I take my measures of learning success from Donald Norman’s definition: “Learning is the act of deliberate study of a specific body of material, so that it can be *retrieved at will and used with skill*.” Successful learning is not just in the head, it allows you to do more. It’s durable and results in useful skills.
+
+2. Know both the effective and ineffective ways to learn.
+
+From the very beginning it’s ideal to maximize the benefit you get from time dedicated to learning and minimize wasted effort and time. I recommend retrieval based learning which you can read about here: https://www.apa.org/science/about/psa/2016/06/learning-memory.aspx and this article covers retrieval and a few more effective/ineffective strategies: http://psych.wustl.edu/memory/Roddy%20article%20PDF's/Roediger%20&%20Pyc%20(2012)a_MemCog.pdf
+
+The above is a good foundation for learning whether you are a beginner or expert. The next two points are about moving from a junior to senior-level.
+
+3. Re-adjusting the balance between the two types of learning.
+
+In coding, particularly among bootcampers, there is a focus on learning for functionality alone. Following a tutorial and getting it to work is a success but is it successful learning as defined above?. :thinking_face:
+
+As a beginner and a junior learning in order to get things to work is the major emphasis but if you want to move to a senior-level the balance between learning for functionality and learning for understanding needs to shift. You need to be spending more time learning for understanding and getting durable and useable skills back.
+
+4. Learning technology adjacent fields
+
+Getting familiarity with and learning technology adjacent fields that are central to technical careers is a good move to differentiate yourself as a developer and get to the next level. Some recommendations are systems thinking, queuing theory, and statistical modeling. What works for me is getting an old textbook off of ebay for $10-15 and sitting down and studying it and trying to implement what I'm learning in programs, at work or at home. Recently I've been working through a statistics and an operations research textbooks and loving it.
+
+All of these are based off of math and mathematical modeling. Any time you invest learning math will pay off big time especially pure mathematics. When you feel like you need to know some math Naive Set Theory is a great place to start.
+
+—
