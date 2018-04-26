@@ -37,7 +37,7 @@ const commands = {
 
 const getCommand = commands => key => str => key in commands ? commands[key](str) : null;
 
-// partially apply one function nd bind to name
+// partially apply one function and bind to name
 const commandDispatch = getCommand(commands);
 
 const createJSON = str => cmd => result =>  ({ original: str, [cmd]: result });

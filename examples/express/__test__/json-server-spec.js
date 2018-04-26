@@ -56,4 +56,5 @@ test('GET /split/This is a Test', t => {
         t.end();
       });
 });
+
 server.close();

@@ -15,6 +15,7 @@ The axiom of extension explained with truth-functional logic:
 Symbolic key:
 
 A: x belongs to set X.
+
 B: x belongs to set Y.
 
 (A →  B) ∧ (B →  A)
