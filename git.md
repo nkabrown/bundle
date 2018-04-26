@@ -7,7 +7,7 @@ like a regular commit.
 
 To avoid tracking files that should be ignored and committing files that should not be a part of git history
 never use `git add .`, or `git add -A`,  or `git add --all`. All files should be explicitly added to the index
-execpt the initial commit when generating templates.
+except the initial commit when generating templates.
 
 Be careful before you commit in git. Never use `git add .`
 - `git add -p`
