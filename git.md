@@ -85,6 +85,25 @@ See the changes to a directory over the course of a week `git diff HEAD 'HEAD@{1
 
 **exclude files from git command output**
 
-Separate your exclusion operators from your command parameters with the double dash `--` and use the git's exclude pathspec alias `^`.
+Separate your exclusion operators from your command parameters with the double dash `--` and use git's exclude pathspec alias `^`.
 
 `git diff -- ':^*.csv'`
+
+**dump git diffs into files**
+
+Yesterday I had to make some code changes in a repo that I do not have write access to. I spent quite a long time copying and pasting changes into an email to send to a developer so she could make the changes. It was time-consuming and frustrating. I’m proud that I let the frustration get to me and did a little research to make sure I never have to do that again.
+
+If you don’t have write access to a repo here is something you can do to get your changes to a developer who does. Commit them on a feature branch local to you and then run `git log --format=email --max-count 1 --patch > patch.txt` to get the git diff copied to a text file you can append to or copy into an email.
+
+`--format=email` will create a header with information about the change
+
+```
+From 9799b344a5f4311cd4221543a4bf850aa5705532 Mon Sep 17 00:00:00 2001
+From 9799b344a5f4311cd4221543a4bf850aa5705532 Mon Sep 17 00:00:00 2001
+From: Nathan Brown <nathan.brown@somecompany.com>
+Date: Mon, 25 Jun 2018 17:50:21 -0400
+Subject: [PATCH] Bugfix - Correctly sum action type totals for pies
+```
+`--patch` will return the text of additions and subtractions you made to the files in the working directory.
+
+`>` is the bash redirection operator. This operator will redirect standard output of the git command into the file we listed `patch.txt`.
