@@ -20,6 +20,10 @@ create multiple directories with bash brace expansion (do not put whitespace bet
 
 `mkdir src/{js,css,img,fonts}`
 
+**copy & paste**
+
+Copy text from your clipboard into the terminal with `Cmd-v` and use `pbpaste` with the redirection operator `>` to write text in your clipboard into a file.
+
 **grep tasks**
 
 search for TODO's in a codebase excluding files and directories and redirect to file
