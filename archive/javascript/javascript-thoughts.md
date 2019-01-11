@@ -12,6 +12,8 @@
 
 [Arrays](#arrays)
 
+[Template Literals](#template-literals)
+
 # If Statements
 
 ```
@@ -169,3 +171,7 @@ for (let i = array.length; i-- > 0;) {
 # + Operator
 
 Why is the `+` operator both the addition operation and string concatenation? It's because the definition of a natural number is a string of ones. The sum of numbers `n` and `m` is the combination of the strings of ones. 1111 + 111 = 1111111 Addition is the concatenation of two strings of ones.
+
+# Template Literals
+
+Template literals are a string literal value that allows multiple lines and for interpolation. Interpolation is the ability to insert the values of expressions into a string.

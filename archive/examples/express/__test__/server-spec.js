@@ -3,6 +3,7 @@ const test = require('tape');
 const request = require('supertest');
 
 const server = require('../server.js');
+console.log(server);
 
 test('GET /hello/repeat/exclaim', t => {
   request(server)

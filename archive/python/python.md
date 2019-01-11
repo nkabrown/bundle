@@ -17,3 +17,7 @@ Safely access the properties of a dictionary (possibily a JSON dictionary) with 
 If you are encoding string types to unicode types set the default parameter of the get method to an empty string to avoid throwing an encoding error if `None` is returned.
 
 To access keys more than one level deep pass an empty dictionary as the default value to the get method. `dict.get('key', {}).get('sub-key')`
+
+# ConfigParser
+
+Pass the key/value pairs of a config.ini section into a dictionary `aws = dict(config.items('s3'))`
