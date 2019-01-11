@@ -1,0 +1,26 @@
+Restructure learning notes respository
+======================================
+ 
+✓  Archive all older material in an archive/ directory 
+
+Time to refresh and redirect the purpose of the bundle repository. I am going
+to move away from grouping learnings by topic and move toward treating the 
+repository as more of an engineering log.
+
+To clear the slate for new materials and a different repo purpose and
+structure all my old files need to be archived.
+
+* Update the README
+
+Describe the new purpose of the repository, which is, public accountability for
+OKRs and engineering logs in the form of key learnings gained from putting a 
+marginal improvement strategy to work.
+
+Possibly leave some links to highlights from the archive. What in the archive do
+I want to be easily discoverable? 
+
+* Create a list of programming tasks
+
+In order to effectively put a marginal improvement strategy to work I need to
+gather a list of the programming tasks that I need to regularly engage in.
+Brainstorm this list, clean it up, and then append new tasks as they arise.
