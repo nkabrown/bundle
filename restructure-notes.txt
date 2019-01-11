@@ -10,11 +10,13 @@ repository as more of an engineering log.
 To clear the slate for new materials and a different repo purpose and
 structure all my old files need to be archived.
 
-* Update the README
+✓  Update the README
 
 Describe the new purpose of the repository, which is, public accountability for
 OKRs and engineering logs in the form of key learnings gained from putting a 
 marginal improvement strategy to work.
+
+README should display current quarters OKRs and possibly last quarters OKRs and grades.
 
 Possibly leave some links to highlights from the archive. What in the archive do
 I want to be easily discoverable? 
