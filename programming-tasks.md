@@ -12,12 +12,12 @@ A useful list of tasks that go into programming.
 * Communicating with stake-holders
 * Estimating and tracking time spend
 * Writing good copy
-✓ Git efficiency
+* ✓ Git efficiency
 * Text editor efficiency
-✓ Document meeting highlights and takeaways
+* ✓ Document meeting highlights and takeaways
 * Know why certain things must be done
 * Skill transfer
-✓ Fix bugs
+* ✓ Fix bugs
 * Write readable and consistent code
 
 ✓ is a marker for a 1% improvement tracked in CHANGELOG.md
