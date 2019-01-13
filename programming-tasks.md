@@ -20,4 +20,4 @@ A useful list of tasks that go into programming.
 * ✓ Fix bugs
 * Write readable and consistent code
 
-✓ is a marker for a 1% improvement tracked in CHANGELOG.md
+✓ is a marker for a 1% improvement tracked in [CHANGELOG.md](CHANGELOG.md)
