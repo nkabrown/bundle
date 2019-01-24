@@ -1,0 +1,11 @@
+Computer Systems
+================
+
+MIPS2C w/ Modern C
+Operating Systems: Three Easy Pieces w/ The Dinosaur Book
+
+
+Python Language
+===============
+
+Python Language Reference w/ The Dragon Book

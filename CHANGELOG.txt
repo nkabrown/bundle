@@ -5,3 +5,7 @@ efficient
 project-level development log with meeting notes
 1% improvement in bug fixing = create a file to list and track all known
 bugs in the program
+
+01/24/2019
+1% improvement in identifying good study materials = group and record
+quality learning materials

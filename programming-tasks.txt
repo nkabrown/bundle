@@ -13,12 +13,15 @@ Communicating with team members,
 Communicating with stake-holders,
 Estimating and tracking time spend,
 Writing good copy,
-✓  Git efficiency,
+✓ Git efficiency,
 Text editor efficiency,
-✓  Document meeting highlights and takeaways,
+✓ Document meeting highlights and takeaways,
 Know why certain things must be done,
+Skill uptake,
 Skill transfer,
-✓  Fix bugs,
+✓ Fix bugs,
+Production flow,
+✓ Identify good study materials,
 
 
-✓ is a marker for a 1% improvement tracked in [CHANGELOG](CHANGELOG)
+✓ is a marker for a 1% improvement tracked in [CHANGELOG](CHANGELOG.txt)
