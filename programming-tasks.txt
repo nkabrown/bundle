@@ -24,4 +24,4 @@ Production flow,
 ✓ Identify good study materials,
 
 
-✓ is a marker for a 1% improvement tracked in [CHANGELOG](CHANGELOG.txt)
+✓ is a marker for a 1% improvement tracked in CHANGELOG
