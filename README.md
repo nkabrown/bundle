@@ -4,6 +4,12 @@ This is a repurposed repository whose new aim is public accountability for Objec
 
 "...if you take no action with the new ideas you have wasted your time." – Donald Rienertsen
 
+## Over-arching objectives
+
+Gain proficiency in math and core computer systems topics
+
+Mastery of the programming languages I use at work
+
 ## Current Quarter OKRs
 
 Implement marginal improvement strategy
