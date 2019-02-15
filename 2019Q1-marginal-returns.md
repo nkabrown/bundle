@@ -9,3 +9,5 @@ Pathspecs will enable me to execute a git operation on subsets of the working tr
 Reference: pathspec entry located at `git help glossary`
 
 Follow-up: Make connections between pathspecs and set theory. Explore history of pathspecs in Unix and their relationship to file systems.
+
+Examples: Recently faced with a terrible situation where someone committed directory names and files names containing spaces to a git repository. The spaces in the directory names prevented another developer from being able to clone the repo. To remove directories or files with spaces from git the paths need to be surrounded by single quotes. `git rm 'path/to/directory/with/spaces /'` To remove a set of files in such a directory whose names have been amended use a pathspec `git rm 'path/with spaces/'*`.

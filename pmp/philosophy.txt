@@ -1,0 +1,20 @@
+**Practice makes perfect (PMP)** projects to build durable knowledge
+
+Goals of PMP:
+
+- understand the basic building blocks of domain
+- grow our knowledge from a base of understanding the simple building blocks
+- effectively move knowledge from short-term to long-term memory
+
+Ingredients of PMP project:
+
+- simple repetitive task that is easily repeatable
+- documentation/specification/reading resource targeted at task
+- short periods of time spaced over several days
+- a though-out next step
+
+Why PMP works:
+utilizes effective learning techniques
+
+- retrieval practice
+- spaced repitition
