@@ -12,21 +12,31 @@ Mastery of the programming languages I use at work
 
 ## Current Quarter OKRs
 
-Implement marginal improvement strategy
+Practice, teach and enforce work's coding standards
+
+- familiarity with frontend and backend coding standards and supporting docs
+- put into practice in regular code reviews
+
+Deeply understand the programming languages I use
+
+- Python documentation read and understood
+- stretch JavaScript with Python knowledge
+- ES6+ features understood and used
+
+## Last Quarter OKRs
+
+Implement marginal improvement strategy – 2
 
 - create a list of all programming tasks
 - 1% improvement for all programming tasks
 - track and log marginal improvements
 
-Understand and use software design principles
+Understand and use software design principles – 3
 
 - applications built with deep modules and properly abstracted layers
 - code and projects are properly documented
 
-Deeply understand the programming languages I use
+Deeply understand the programming languages I use – 4
 
 - Python documentation read and understood
 
-## Last Quarter OKRs
-
-Q1 2019 is my first round of OKRs. OKRs will be updated April 1 2019.
