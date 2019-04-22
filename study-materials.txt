@@ -9,3 +9,9 @@ Python Language
 ===============
 
 Python Language Reference w/ The Dragon Book
+
+
+Management Fundamentals
+=======================
+
+High Output Management

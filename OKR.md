@@ -27,6 +27,10 @@ Implement marginal improvement strategy – 2
 
 **2019 Q2**
 
+Learn the fundamentals of management
+
+- put in the effort to engage with "High Output Management"
+
 Practice, teach and enforce work's coding standards
 
 - familiarity with frontend and backend coding standards and supporting docs
