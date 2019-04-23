@@ -2,7 +2,7 @@ Management Fundamentals
 =======================
 
 Plan to learn the fundamentals of management from Andrew Grove's book
-"High Output Management" and reading several XP programming books.
+"High Output Management" (HOM) and reading several XP programming books.
 
 Also want to expose myself to Will Larson's writings on engineering strategy
 at lethain.com and Kent Beck's 3X strategy (Explore/Expand/Extract).
@@ -17,3 +17,12 @@ Richard Hamming: "Education is what, when, and why to do a thing. Training
 is how to do it".
 
 Once the fundamentals have been learned then you can develop a "style".
+
+Mental exercises:
+
+- Are HOM's requirements of production true requirements? For example, if
+  there is no scheduled delivery can that still be production?
+
+- What is my team's production flow?
+
+- How will agile effect our team's production flow?

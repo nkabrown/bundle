@@ -1,0 +1,19 @@
+High Output Management (Outline)
+================================
+
+1. Output oriented approach to management
+2. Managerial leverage
+3. Peak performance
+
+The Basics of Production
+++++++++++++++++++++++++
+
+Requirements of production
+
+Concepts of production flow
+
+  - limiting step
+  - throughput
+  - offset
+
+Types of production operations
