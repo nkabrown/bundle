@@ -7,6 +7,8 @@ Plan to learn the fundamentals of management from Andrew Grove's book
 Also want to expose myself to Will Larson's writings on engineering strategy
 at lethain.com and Kent Beck's 3X strategy (Explore/Expand/Extract).
 
+Find a rationale for everything you do.
+
 How do you learn the fundamentals? "The deliberate study of a specific body
 of material so that it can be retrieved at will and used with skill."
 
@@ -22,6 +24,9 @@ Mental exercises:
 
 - Are HOM's requirements of production true requirements? For example, if
   there is no scheduled delivery can that still be production?
+
+- Metaphors of production to meditate upon: a "flow of activity" or a
+  "sequence of steps" to produce a specific output.
 
 - What is my team's production flow?
 
