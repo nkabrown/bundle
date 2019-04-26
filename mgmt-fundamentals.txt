@@ -12,6 +12,13 @@ Find a rationale for everything you do.
 How do you learn the fundamentals? "The deliberate study of a specific body
 of material so that it can be retrieved at will and used with skill."
 
+"How to be a great painter cannot be taught in words; on learns by trying many
+different approaches that seem to surround the subject. Art teachers usually
+let the advanced student paint, and then make suggestions on how they would
+have done it, or what might also be tried, more or less as the points arise
+in the student's head – which is where the learning is supposed to occur!"
+- Richard Hamming
+
 #1: Be deliberate.
 
 Keep in mind the difference between education and training according to
@@ -19,6 +26,13 @@ Richard Hamming: "Education is what, when, and why to do a thing. Training
 is how to do it".
 
 Once the fundamentals have been learned then you can develop a "style".
+
+**Basics of Production**
+
+Three requirements of good production systems: scheduled delivery time,
+acceptable quality level, and lowest possible cost.
+
+Lowest cost is an inequality.
 
 Mental exercises:
 
