@@ -221,3 +221,28 @@ Getting familiarity with and learning technology adjacent fields that are centra
 All of these are based off of math and mathematical modeling. Any time you invest learning math will pay off big time especially pure mathematics. When you feel like you need to know some math Naive Set Theory is a great place to start.
 
 —
+
+The comma operator and parentheses in combination can do very powerful and neat things. Not many people realize it though since the examples that often go along with the official definition don’t do justice to what’s its really useful for. Just take a look at the MDN article and it’s examples. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Comma_Operator
+
+The definition is helpful “The comma operator evaluates each of its operands (from left to right) and returns the value of the last operand” and this line “You can use the comma operator when you want to include multiple expressions in a location that requires a single expression” but then the examples are not very good at all.
+
+So let’s look at some better examples. The comma operator in combination with parentheses are helpful anywhere there is a slot that will take a single expression but you need to accomplish multiple things.
+
+```
+// reverse an array using reduce as a one liner
+const array = [1, 2, 3, 4, 5];
+
+array.reduce((acc, elem) => (acc.unshift(elem), acc), []);
+//=> [5, 4, 3, 2, 1]
+```
+
+Here we can add an element onto the front of the accumulator array and then return the accumulator array in a nifty one liner since the parenthesized section does two things but only returns one value and counts as a single expression.
+
+```
+// find the length of a string
+const strLength = (str, length = 0) => {
+  return str === '' ? length : (str = str.substring(1,), length += 1, strLength(str, length));
+};
+```
+
+Manipulate the string, increment the counter, and then call the recursive function and return its value. It all counts as one expression and so can be used in the ternary operator.
